@@ -16,17 +16,13 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:paschalis.agapitos@dipc.org"
-      
-toc: true
-toc-title: Contents
-toc-location: right
 ---
 ::: {#about-block}
 :::
 
 # Welcome to my website!
 
-I am Paschalis Agapitos (Πασχάλης Αγαπητός)! Born and raised in [Alexandroupli, Greece](https://www.google.com/maps/place/Alexandroupoli+681+00,+Greece/@40.8491336,25.8547108,14z/data=!3m1!4b1!4m6!3m5!1s0x14b21c9f5c02c8d5:0xbab0f92b441e41e3!8m2!3d40.8457193!4d25.873962!16zL20vMDVzeWtw?entry=ttu), having lived and worked for 2 years in [Groningen, the Netherlands](https://www.google.com/maps/place/Groningen,+Netherlands/@53.2216766,6.4832935,12z/data=!3m1!4b1!4m6!3m5!1s0x47c83286b462cca7:0xcb4b5086f9a6c8dc!8m2!3d53.2193835!4d6.5665017!16zL20vMGQ4czg?entry=ttu) and since the 1st of April, 2023 my base is in [Donostia-San Sebastian in the Basque Country, Spain](https://www.google.com/maps/place/Donostia-San+Sebastian,+Gipuzkoa/@43.3072662,-2.0518221,13z/data=!3m1!4b1!4m6!3m5!1s0xd51affe3b68fe15:0xe43ec55994864649!8m2!3d43.318334!4d-1.9812313!16zL20vMDJsNmw4?entry=ttu).
+I am Paschalis Agapitos (Πασχάλης Αγαπητός)! Born and raised in [Alexandroupoli, Greece](https://www.google.com/maps/place/Alexandroupoli+681+00,+Greece/@40.8491336,25.8547108,14z/data=!3m1!4b1!4m6!3m5!1s0x14b21c9f5c02c8d5:0xbab0f92b441e41e3!8m2!3d40.8457193!4d25.873962!16zL20vMDVzeWtw?entry=ttu), having lived and worked for 2 years in [Groningen, the Netherlands](https://www.google.com/maps/place/Groningen,+Netherlands/@53.2216766,6.4832935,12z/data=!3m1!4b1!4m6!3m5!1s0x47c83286b462cca7:0xcb4b5086f9a6c8dc!8m2!3d53.2193835!4d6.5665017!16zL20vMGQ4czg?entry=ttu) and since the 1st of April, 2023 my base is in [Donostia-San Sebastian in the Basque Country, Spain](https://www.google.com/maps/place/Donostia-San+Sebastian,+Gipuzkoa/@43.3072662,-2.0518221,13z/data=!3m1!4b1!4m6!3m5!1s0xd51affe3b68fe15:0xe43ec55994864649!8m2!3d43.318334!4d-1.9812313!16zL20vMDJsNmw4?entry=ttu).
 
 Currently I am a PhD candidate in the Donostia International Physics Center ([DIPC](https://dipc.ehu.eus/en)).
 
