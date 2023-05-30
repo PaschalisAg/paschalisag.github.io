@@ -2,11 +2,13 @@
 
 # website settings
 website:
-  title: "Paschalis Agapitos"                                # Your name
-  description: "Paschalis Agapitos' personal website"   # A brief slogan (optional)
+  title: "Paschalis Agapitos" # Your name
+  description: "My personal academic website"
   image: img/prof_pic.png
-  twitter-card: true
+  twitter-card:
+    creator: "@paschalisag"
   open-graph: true
+  repo-url: https://github.com/PaschalisAg/paschalisag.github.io
   cookie-consent:
     type: express
     style: headline
@@ -43,15 +45,15 @@ website:
   
   
 
-# Don't touch unless you know what you are doing :) ------------
+# # Don't touch unless you know what you are doing :) ------------
   search: 
     location: navbar
     type: textbox
   page-footer: 
     left: |
       <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
-    center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+    # center: |
+      # <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
     right: |
       <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
 
@@ -71,7 +73,7 @@ execute:
 format:
   html:
     fontsize: 1.1em
-    theme: 
+    theme:
       - solar
       - html/styles.scss
     toc: true
