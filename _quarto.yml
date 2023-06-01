@@ -36,17 +36,20 @@ website:
         href: cv/index.qmd
     
     # your social media handles
+    # aria-label: make items accessible for screen readers
     right:
       - icon: github
         href: https://github.com/PaschalisAg
+        aria-label: Quarto Github
       - icon: twitter
         href: https://twitter.com/paschalisag
+        aria-label: Quarto Twitter
       - icon: linkedin
         href: https://www.linkedin.com/in/paschalis-agapitos-1b5284217/
+        aria-label: Quarto Linkedin
       - icon: envelope
         aria-label: email
         href: "mailto:paschalis.agapitos@dipc.org"  
-  
   
 
 # # Don't touch unless you know what you are doing :) ------------
@@ -75,9 +78,13 @@ execute:
 format:
   html:
     fontsize: 1.1em
+    highlight-style: a11y # set the theme to be adaptive for syntax highlighting
     theme:
-      light: flatly
-      dark: darkly
+      light: [flatly, html/light-styles.scss]
+      dark: [darkly, html/dark-styles.scss]
+    smooth-scroll: true
+    df-print: kable
+    css: styles.css
     code-link: true
     anchor-sections: true
     fig-cap-location: margin
