@@ -20,7 +20,11 @@ website:
   favicon: img/favicon_network.png
   
   # start of the navigation bar at the top of the website
+  search:
+    location: navbar
+    type: textbox
   navbar:
+    background: primary
     pinned: true
     logo: /img/logo.png
     
@@ -46,9 +50,7 @@ website:
   
 
 # # Don't touch unless you know what you are doing :) ------------
-  search: 
-    location: navbar
-    type: textbox
+
   page-footer: 
     left: |
       <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
@@ -74,9 +76,8 @@ format:
   html:
     fontsize: 1.1em
     theme:
-      - pulse
-      - html/styles.scss
-    toc: true
+      light: flatly
+      dark: darkly
     code-link: true
     anchor-sections: true
     fig-cap-location: margin
