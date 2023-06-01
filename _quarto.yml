@@ -5,6 +5,7 @@ website:
   title: "Paschalis Agapitos" # Your name
   description: "My personal academic website"
   image: img/prof_pic.png
+  page-navigation: true
   twitter-card:
     creator: "@paschalisag"
   open-graph: true
@@ -23,6 +24,7 @@ website:
   search:
     location: navbar
     type: textbox
+    copy-button: true
   navbar:
     background: primary
     pinned: true
@@ -40,13 +42,13 @@ website:
     right:
       - icon: github
         href: https://github.com/PaschalisAg
-        aria-label: Quarto Github
+        aria-label: Github
       - icon: twitter
         href: https://twitter.com/paschalisag
-        aria-label: Quarto Twitter
+        aria-label: Twitter
       - icon: linkedin
         href: https://www.linkedin.com/in/paschalis-agapitos-1b5284217/
-        aria-label: Quarto Linkedin
+        aria-label: Linkedin
       - icon: envelope
         aria-label: email
         href: "mailto:paschalis.agapitos@dipc.org"  
@@ -59,8 +61,8 @@ website:
       <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
     # center: |
       # <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
-    right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+    # right: |
+      # <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
 
 project:
   type: website
@@ -87,6 +89,6 @@ format:
     css: styles.css
     code-link: true
     anchor-sections: true
-    fig-cap-location: margin
-    reference-location: margin
+    # fig-cap-location: margin
+    # reference-location: margin
     footnotes-hover: true
