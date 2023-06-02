@@ -4,7 +4,7 @@
 website:
   title: "Paschalis Agapitos" # Your name
   description: "My personal academic website"
-  image: img/prof_pic.png
+  image: img/prof_pic.jpg
   page-navigation: true
   twitter-card:
     creator: "@paschalisag"
