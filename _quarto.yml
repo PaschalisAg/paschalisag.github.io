@@ -12,7 +12,7 @@ website:
   repo-url: https://github.com/PaschalisAg/paschalisag.github.io
   cookie-consent:
     type: express
-    style: headline
+    style: interstitial
     palette: dark
   # google-analytics: "UA-XXXXXXXX"
 
