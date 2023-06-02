@@ -14,7 +14,7 @@ website:
     type: express
     style: interstitial
     palette: dark
-  # google-analytics: "UA-XXXXXXXX"
+  google-analytics: "G-16B83QME0W"
 
 
   
@@ -79,8 +79,19 @@ execute:
 
 format:
   html:
+    include-after-body:
+      # <!-- Google tag (gtag.js) -->
+      - text: |
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-16B83QME0W"></script>
+          <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-16B83QME0W');
+          </script>
     fontsize: 1.1em
     highlight-style: a11y # set the theme to be adaptive for syntax highlighting
+
     theme:
       light: [flatly, html/light-styles.scss]
       dark: [darkly, html/dark-styles.scss]
