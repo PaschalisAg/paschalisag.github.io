@@ -2,15 +2,15 @@
 layout: page
 title: Curriculum vitae
 excerpt: My current CV
-date: 2023-03-01
+date: 2023-06-03
 published-title: CV (last update)
 execute: 
   freeze: true
 engine: knitr
 resources:
-  - "CV - Paschalis Agapitos.pdf"
+  - "CV-Paschalis Agapitos.pdf"
 cv:
-  pdf: "CV - Paschalis Agapitos.pdf"
+  pdf: "CV-Paschalis Agapitos.pdf"
 ---
 
 ```{css echo=FALSE}

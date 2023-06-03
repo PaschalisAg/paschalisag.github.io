@@ -8,7 +8,9 @@ website:
   page-navigation: true
   twitter-card:
     creator: "@paschalisag"
+    card-style: summary_large_image
   open-graph: true
+  site-url: https://paschalisag.github.io
   repo-url: https://github.com/PaschalisAg/paschalisag.github.io
   cookie-consent:
     type: express
@@ -100,7 +102,7 @@ format:
       dark: [darkly, html/dark-styles.scss]
     smooth-scroll: true
     df-print: kable
-    css: html/styles.css
+    # css: html/styles.css
     code-link: true
     anchor-sections: true
     # fig-cap-location: margin
