@@ -93,11 +93,11 @@ format:
     highlight-style: a11y # set the theme to be adaptive for syntax highlighting
 
     theme:
-      light: [flatly, html/light-styles.scss]
+      light: [cosmo, html/light-styles.scss]
       dark: [darkly, html/dark-styles.scss]
     smooth-scroll: true
     df-print: kable
-    css: styles.css
+    css: html/styles.css
     code-link: true
     anchor-sections: true
     # fig-cap-location: margin
