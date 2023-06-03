@@ -14,8 +14,9 @@ website:
     type: express
     style: interstitial
     palette: dark
+    ####
   google-analytics: "G-16B83QME0W"
-
+    ####
 
   
   favicon: img/favicon_network.png
@@ -80,6 +81,7 @@ execute:
 format:
   html:
     include-after-body:
+      #####
       # <!-- Google tag (gtag.js) -->
       - text: |
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-16B83QME0W"></script>
@@ -89,6 +91,7 @@ format:
           gtag('js', new Date());
           gtag('config', 'G-16B83QME0W');
           </script>
+        ####
     fontsize: 1.1em
     highlight-style: a11y # set the theme to be adaptive for syntax highlighting
 

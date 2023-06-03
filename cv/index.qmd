@@ -8,9 +8,9 @@ execute:
   freeze: true
 engine: knitr
 resources:
-  - "paschalis_agapitos_cv.pdf"
+  - "CV - Paschalis Agapitos.pdf"
 cv:
-  pdf: "paschalis_agapitos_cv.pdf"
+  pdf: "CV - Paschalis Agapitos.pdf"
 ---
 
 ```{css echo=FALSE}
