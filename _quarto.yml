@@ -39,6 +39,7 @@ website:
       #   href: projects/index.qmd
       - text: "CV"
         href: cv/index.qmd
+      - text: "Important moments"
     
     # your social media handles
     # aria-label: make items accessible for screen readers
